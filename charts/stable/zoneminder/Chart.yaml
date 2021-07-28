@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: Zoneminder helm package
+name: zoneminder
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- zoneminder
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/zoneminder
+sources:
+- https://github.com/ZoneMinder/ZoneMinder
+maintainers:
+- name: Matt Barclay
+  email: mbarclay@pm.me
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 3.3.0
